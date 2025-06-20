@@ -5,7 +5,7 @@
 # Greetings! This is the ETL script! It will automate all of the script executions for you 
 # All you have to do is simply give this script the following: 
 # <serverID> <userID> <remote-filepath> 
-# and it'll do the rest for ya
+# and it'll do the rest for you
 
 remote_server="$1" # This is the server ID
 remote_usrid="$2" # This is your user ID
