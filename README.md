@@ -1,7 +1,7 @@
 # Linux ETL Pipeline
 
 ## This project demonstrates an ETL pipeline built in an Ubuntu environment designed to process transaction data with standard command-line utilities. It emphasizes the power and flexibility of shell scripting and tools such as scp, bunzip2, awk, and other core Unix utilites to extract compressed files, clean and transform data, and generate practical reports.
------
+
 ## ETL Workflow
 Extract: 
 - transfer_transaction_file.sh: Copy the compressed transaction file from a remote server using scp 
@@ -21,7 +21,7 @@ Load and Report:
 - generate_summary_file.sh: Aggregates purchase totals by customer ID, region, and demographics. Output: summary.csv
 - generate_transaction_report.sh: Generates a state-wise transaction count report. Output: transaction.rpt
 - generate_purchase_report.sh: Generates a report of ttal purchase amounts by state and gender. Output: purchase.rpt
------
+
 ## Usage
 Here's an example of how to run the pipeline: 
 ```
@@ -44,7 +44,7 @@ Here's an example of how to run the pipeline:
 ./generate_transaction_report.sh
 ./generate_purchase_report.sh
 ```
------
+
 ## Warning
 Because the server containing the source data was shut down, it is currently impossible to run the ETL script from end-to-end. However, I did keep a copy of the source file so you can run the file from step 2 all the way to the end. 
 
