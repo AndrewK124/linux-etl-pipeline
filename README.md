@@ -45,5 +45,5 @@ Here's an example of how to run the pipeline:
 ```
 
 ## Warning
-Because the server containing the source data was shut down, it is currently impossible to run the ETL script from end-to-end. However, I did keep a copy of the source file so you can run the file from step 2 all the way to the end. 
+Because the server containing the source data was shut down, it is currently impossible to run the ETL script from end-to-end. However, I did keep a copy of the source file so you can run the file from step 2 all the way to the end, if you wish.
 
